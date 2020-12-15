@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CSharpExercises.Loops.BitsToNumber</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,6 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Loops\BitsToNumber.cs" />
+    <Compile Include="Loops\DigitalRoot.cs" />
+    <Compile Include="Loops\DigitsSum.cs" />
+    <Compile Include="Loops\ExtractString.cs" />
+    <Compile Include="Loops\FullSequenceOfLetters.cs" />
+    <Compile Include="Loops\LettersBalance.cs" />
+    <Compile Include="Loops\ReplaceWords.cs" />
+    <Compile Include="Loops\SieveOfErotosthenes.cs" />
+    <Compile Include="Loops\SumAndAverage.cs" />
+    <Compile Include="Loops\SumDoubleOnly.cs" />
+    <Compile Include="Loops\ThreeIncreasingAdjacent.cs" />
+    <Compile Include="Loops\ToThePowerOf.cs" />
+    <Compile Include="Loops\Two7sNextToEachOther.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
