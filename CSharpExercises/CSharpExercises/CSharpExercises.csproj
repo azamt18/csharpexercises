@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpExercises.Strings.AddSeparator</StartupObject>
+    <StartupObject>CSharpExercises.Strings.MakeUppercase</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -64,6 +64,9 @@
     <Compile Include="Strings\AddSeparator.cs" />
     <Compile Include="Strings\CheckBracketsSequence.cs" />
     <Compile Include="Strings\IsPalindrome.cs" />
+    <Compile Include="Strings\LengthOfAString.cs" />
+    <Compile Include="Strings\MakeUppercase.cs" />
+    <Compile Include="Strings\StringInReverseOrder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
