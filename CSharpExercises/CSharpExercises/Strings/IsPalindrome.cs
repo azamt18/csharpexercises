@@ -6,15 +6,14 @@ namespace CSharpExercises.Strings
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(IsPalindromeMethod("eye"));  // true
-            Console.WriteLine(IsPalindromeMethod("home")); // false
+            Console.WriteLine(IsPalindromeMethod("eye"));  // True
+            Console.WriteLine(IsPalindromeMethod("home")); // False
 
-            Console.WriteLine(IsPalindromeMethod("madam"));                          // True
-            Console.WriteLine(IsPalindromeMethod("123454321"));                    // True
-            Console.WriteLine(IsPalindromeMethod("apple"));                             // False
-            Console.WriteLine(IsPalindromeMethod("Never Odd Or Even"));       // True
-            Console.WriteLine(IsPalindromeMethod("Curabitur vel est diam"));   // False
-            Console.WriteLine(IsPalindromeMethod("x"));                                     // True
+            Console.WriteLine(IsPalindromeMethod("madam")); // True
+            Console.WriteLine(IsPalindromeMethod("123454321")); // True
+            Console.WriteLine(IsPalindromeMethod("apple")); // False
+            Console.WriteLine(IsPalindromeMethod("Curabitur vel est diam")); // False
+            Console.WriteLine(IsPalindromeMethod("x")); // True
 
             Console.ReadLine();
         }

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpExercises.Strings.MakeUppercase</StartupObject>
+    <StartupObject>CSharpExercises.Strings.NumberOfWords</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -66,6 +66,8 @@
     <Compile Include="Strings\IsPalindrome.cs" />
     <Compile Include="Strings\LengthOfAString.cs" />
     <Compile Include="Strings\MakeUppercase.cs" />
+    <Compile Include="Strings\MixTwoStrings.cs" />
+    <Compile Include="Strings\NumberOfWords.cs" />
     <Compile Include="Strings\StringInReverseOrder.cs" />
   </ItemGroup>
   <ItemGroup>
