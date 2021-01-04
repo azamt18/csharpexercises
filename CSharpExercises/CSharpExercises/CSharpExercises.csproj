@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpExercises.Strings.NumberOfWords</StartupObject>
+    <StartupObject>CSharpExercises.Strings.CompressString</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -63,11 +63,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strings\AddSeparator.cs" />
     <Compile Include="Strings\CheckBracketsSequence.cs" />
+    <Compile Include="Strings\CompressString.cs" />
+    <Compile Include="Strings\HowManyOccurrences.cs" />
     <Compile Include="Strings\IsPalindrome.cs" />
     <Compile Include="Strings\LengthOfAString.cs" />
     <Compile Include="Strings\MakeUppercase.cs" />
     <Compile Include="Strings\MixTwoStrings.cs" />
     <Compile Include="Strings\NumberOfWords.cs" />
+    <Compile Include="Strings\RevertWordsOrder.cs" />
+    <Compile Include="Strings\SortCharactersDescending.cs" />
     <Compile Include="Strings\StringInReverseOrder.cs" />
   </ItemGroup>
   <ItemGroup>
