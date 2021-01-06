@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpExercises.Recursion.FibonacciNumber</StartupObject>
+    <StartupObject>CSharpExercises.Recursion.ToThePowerOfRecursion</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -64,6 +64,8 @@
     <Compile Include="Recursion\DigitsMultiplication.cs" />
     <Compile Include="Recursion\Factorial.cs" />
     <Compile Include="Recursion\FibonacciNumber.cs" />
+    <Compile Include="Recursion\NumbersMultiplication.cs" />
+    <Compile Include="Recursion\ToThePowerOfRecursion.cs" />
     <Compile Include="Strings\AddSeparator.cs" />
     <Compile Include="Strings\CheckBracketsSequence.cs" />
     <Compile Include="Strings\CompressString.cs" />
