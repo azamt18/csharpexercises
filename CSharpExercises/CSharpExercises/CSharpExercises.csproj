@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpExercises.Recursion.ToThePowerOfRecursion</StartupObject>
+    <StartupObject>CSharpExercises.LibraryFunctions.IfStartsWithLowerCase</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LibraryFunctions\IfStartsWithLowerCase.cs" />
+    <Compile Include="LibraryFunctions\NegativeOrPositive.cs" />
+    <Compile Include="LibraryFunctions\ReplaceXWithY.cs" />
     <Compile Include="Loops\BitsToNumber.cs" />
     <Compile Include="Loops\DigitalRoot.cs" />
     <Compile Include="Loops\DigitsSum.cs" />
@@ -82,6 +85,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
