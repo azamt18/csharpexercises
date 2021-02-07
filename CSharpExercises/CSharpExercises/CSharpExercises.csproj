@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpExercises.RegularExpressions.EveryWordInTheString</StartupObject>
+    <StartupObject>CSharpExercises.LINQ.UppercaseOnly</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,13 @@
     <Compile Include="LibraryFunctions\IfStartsWithLowerCase.cs" />
     <Compile Include="LibraryFunctions\NegativeOrPositive.cs" />
     <Compile Include="LibraryFunctions\ReplaceXWithY.cs" />
+    <Compile Include="LINQ\MinimumLength.cs" />
+    <Compile Include="LINQ\NumbersFromRange.cs" />
+    <Compile Include="LINQ\ReplaceSubstring.cs" />
+    <Compile Include="LINQ\SelectWords.cs" />
+    <Compile Include="LINQ\SquareGreaterThan20.cs" />
+    <Compile Include="LINQ\Top5Numbers.cs" />
+    <Compile Include="LINQ\UppercaseOnly.cs" />
     <Compile Include="Loops\BitsToNumber.cs" />
     <Compile Include="Loops\DigitalRoot.cs" />
     <Compile Include="Loops\DigitsSum.cs" />
