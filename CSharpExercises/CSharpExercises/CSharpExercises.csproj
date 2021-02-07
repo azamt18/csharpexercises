@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpExercises.LibraryFunctions.IfStartsWithLowerCase</StartupObject>
+    <StartupObject>CSharpExercises.RegularExpressions.AlmostOnlyLetters</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -69,6 +69,7 @@
     <Compile Include="Recursion\FibonacciNumber.cs" />
     <Compile Include="Recursion\NumbersMultiplication.cs" />
     <Compile Include="Recursion\ToThePowerOfRecursion.cs" />
+    <Compile Include="RegularExpressions\AlmostOnlyLetters.cs" />
     <Compile Include="Strings\AddSeparator.cs" />
     <Compile Include="Strings\CheckBracketsSequence.cs" />
     <Compile Include="Strings\CompressString.cs" />
