@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpExercises.RegularExpressions.AlmostOnlyLetters</StartupObject>
+    <StartupObject>CSharpExercises.RegularExpressions.EveryWordInTheString</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -70,6 +70,10 @@
     <Compile Include="Recursion\NumbersMultiplication.cs" />
     <Compile Include="Recursion\ToThePowerOfRecursion.cs" />
     <Compile Include="RegularExpressions\AlmostOnlyLetters.cs" />
+    <Compile Include="RegularExpressions\CheckPhoneNumber.cs" />
+    <Compile Include="RegularExpressions\DecimalDigitInformation.cs" />
+    <Compile Include="RegularExpressions\EveryWordInTheString.cs" />
+    <Compile Include="RegularExpressions\ReplaceGoodWithBad.cs" />
     <Compile Include="Strings\AddSeparator.cs" />
     <Compile Include="Strings\CheckBracketsSequence.cs" />
     <Compile Include="Strings\CompressString.cs" />
