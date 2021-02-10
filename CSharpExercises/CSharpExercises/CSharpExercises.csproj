@@ -74,6 +74,7 @@
     <Compile Include="Loops\ThreeIncreasingAdjacent.cs" />
     <Compile Include="Loops\ToThePowerOf.cs" />
     <Compile Include="Loops\Two7sNextToEachOther.cs" />
+    <Compile Include="Miscellaneous\HowManyDays.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recursion\DigitsMultiplication.cs" />
