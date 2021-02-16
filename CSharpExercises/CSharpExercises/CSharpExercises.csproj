@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpExercises.RegularExpressions.EveryWordInTheString</StartupObject>
+    <StartupObject>CSharpExercises.Searching.BinarySearch</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -74,6 +74,8 @@
     <Compile Include="RegularExpressions\DecimalDigitInformation.cs" />
     <Compile Include="RegularExpressions\EveryWordInTheString.cs" />
     <Compile Include="RegularExpressions\ReplaceGoodWithBad.cs" />
+    <Compile Include="Searching\BinarySearch.cs" />
+    <Compile Include="Searching\LinearSearch.cs" />
     <Compile Include="Strings\AddSeparator.cs" />
     <Compile Include="Strings\CheckBracketsSequence.cs" />
     <Compile Include="Strings\CompressString.cs" />
