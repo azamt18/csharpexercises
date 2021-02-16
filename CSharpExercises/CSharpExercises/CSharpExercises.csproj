@@ -49,6 +49,18 @@
     <Compile Include="LibraryFunctions\IfStartsWithLowerCase.cs" />
     <Compile Include="LibraryFunctions\NegativeOrPositive.cs" />
     <Compile Include="LibraryFunctions\ReplaceXWithY.cs" />
+    <Compile Include="LINQ\ArrayDotProduct.cs" />
+    <Compile Include="LINQ\DecryptNumber.cs" />
+    <Compile Include="LINQ\FrequencyOfLetters.cs" />
+    <Compile Include="LINQ\MinimumLength.cs" />
+    <Compile Include="LINQ\MostFrequentLetter.cs" />
+    <Compile Include="LINQ\NumbersFromRange.cs" />
+    <Compile Include="LINQ\ReplaceSubstring.cs" />
+    <Compile Include="LINQ\SelectWords.cs" />
+    <Compile Include="LINQ\ShuffleArray.cs" />
+    <Compile Include="LINQ\SquareGreaterThan20.cs" />
+    <Compile Include="LINQ\Top5Numbers.cs" />
+    <Compile Include="LINQ\UppercaseOnly.cs" />
     <Compile Include="Loops\BitsToNumber.cs" />
     <Compile Include="Loops\DigitalRoot.cs" />
     <Compile Include="Loops\DigitsSum.cs" />
@@ -62,6 +74,7 @@
     <Compile Include="Loops\ThreeIncreasingAdjacent.cs" />
     <Compile Include="Loops\ToThePowerOf.cs" />
     <Compile Include="Loops\Two7sNextToEachOther.cs" />
+    <Compile Include="Miscellaneous\HowManyDays.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recursion\DigitsMultiplication.cs" />
