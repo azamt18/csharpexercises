@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpExercises.Searching.BinarySearch</StartupObject>
+    <StartupObject>CSharpExercises.Sorting.MergeSort</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -89,6 +89,10 @@
     <Compile Include="RegularExpressions\ReplaceGoodWithBad.cs" />
     <Compile Include="Searching\BinarySearch.cs" />
     <Compile Include="Searching\LinearSearch.cs" />
+    <Compile Include="Sorting\BubbleSort.cs" />
+    <Compile Include="Sorting\InsertionSort.cs" />
+    <Compile Include="Sorting\MergeSort.cs" />
+    <Compile Include="Sorting\SelectionSort.cs" />
     <Compile Include="Strings\AddSeparator.cs" />
     <Compile Include="Strings\CheckBracketsSequence.cs" />
     <Compile Include="Strings\CompressString.cs" />
