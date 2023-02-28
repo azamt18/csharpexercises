@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using CSharpExercises.Arrays;
 
 namespace CSharpExercises
 {
@@ -12,6 +9,11 @@ namespace CSharpExercises
         {
             Console.WriteLine("Initial program state");
 
+            Console.WriteLine(GetConcatenationClass.GetConcatenation(new []{1,2,1})); //  →[1,2,1,1,2,1]
+            Console.WriteLine(GetConcatenationClass.GetConcatenation(new []{1,3,2,1})); //  → [1,3,2,1,1,3,2,1]
+
+            Console.ReadKey();
+            
             Console.ReadLine();
         }
     }
