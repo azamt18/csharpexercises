@@ -5,11 +5,6 @@ namespace CSharpExercises.Edabit
 {
     public class EdabitExercises
     {
-        static void Main(string[] args)
-        {
-            
-        }
-
         public static int[] SortNumsAscending(int[] arr) => arr.OrderBy(x => x).ToArray();
 
         public static int GetAbsSum(int[] arr) => arr.Sum(Math.Abs);

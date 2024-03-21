@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace CSharpExercises.Strings
 {
@@ -18,21 +19,32 @@ namespace CSharpExercises.Strings
             Console.ReadLine();
         }
 
-        static bool IsPalindromeMethod(string word)
+        public int ReturnSecondMax(int[] nums)
+        {
+            // Insert your code here
+            var orderedNums = nums.OrderBy(i => i).ToArray();
+            var secondLargest = orderedNums[1];
+
+            return secondLargest;
+        }
+        
+        
+        
+        static string IsPalindromeMethod(string str)
         {
 
             bool isPalindrome = true;
 
-            word = word.ToLower();
+            str = str.ToLower();
 
-            for (int i = 0; i < word.Length / 2; i++)
+            for (int i = 0; i < str.Length / 2; i++)
             {
-                isPalindrome = word[i] == word[word.Length - 1 - i];
+                isPalindrome = str[i] == str[str.Length - 1 - i];
                  if (isPalindrome == false)
                     break;
             }
 
-            return isPalindrome;
+            return isPalindrome ? "Yes" : "No";
         }
     }
 }

@@ -1,29 +1,29 @@
-﻿using System;
-using NUnit.Framework;
+﻿
+
 using CSharpExercises.Edabit;
 
-namespace CSharpExercisesTests.Edabit
+namespace CSharpExercises.Tests.Edabit
 {
     [TestFixture]
     public class Tests
     {
         [Test]
-        [TestCase(1, ExpectedResult = "January")]
-        [TestCase(2, ExpectedResult = "February")]
-        [TestCase(3, ExpectedResult = "March")]
-        [TestCase(4, ExpectedResult = "April")]
-        [TestCase(5, ExpectedResult = "May")]
-        [TestCase(6, ExpectedResult = "June")]
-        [TestCase(7, ExpectedResult = "July")]
-        [TestCase(8, ExpectedResult = "August")]
-        [TestCase(9, ExpectedResult = "September")]
-        [TestCase(10, ExpectedResult = "October")]
-        [TestCase(11, ExpectedResult = "November")]
-        [TestCase(12, ExpectedResult = "December")]
-        public string MonthName(int num)
+        [TestCase(1, "January")]
+        [TestCase(2, "February")]
+        [TestCase(3, "March")]
+        [TestCase(4, "April")]
+        [TestCase(5, "May")]
+        [TestCase(6, "June")]
+        [TestCase(7, "July")]
+        [TestCase(8, "August")]
+        [TestCase(9, "September")]
+        [TestCase(10, "October")]
+        [TestCase(11, "November")]
+        [TestCase(12, "December")]
+        public void MonthName(int num, string expected)
         {
             Console.WriteLine($"Input: {num}");
-            return MonthNameByNumber.MonthNameMethod(num);
+            Assert.That(MonthNameByNumber.MonthNameMethod(num), Is.EqualTo(expected), "correct");
         }
 
         [Test]
@@ -39,15 +39,15 @@ namespace CSharpExercisesTests.Edabit
             int[] haystack_9 = new int[] { -21, -9, -96 };
             int[] haystack_10 = new int[] { 0 };
 
-            Assert.AreEqual(new int[] { 1, 2, 5, 10, 50 }, EdabitExercises.SortNumsAscending(haystack_1));
-            Assert.AreEqual(new int[] { -95, -24, 4, 29, 80, 85 }, EdabitExercises.SortNumsAscending(haystack_2));
-            Assert.AreEqual(new int[] { }, EdabitExercises.SortNumsAscending(haystack_4));
-            Assert.AreEqual(new int[] { -85, -27, -17, -16, -16, -8, 47, 47, 51, 91 }, EdabitExercises.SortNumsAscending(haystack_5));
-            Assert.AreEqual(new int[] { -76, -73, -51, -14, 65, 69, 74 }, EdabitExercises.SortNumsAscending(haystack_6));
-            Assert.AreEqual(new int[] { 21, 33, 35, 45, 65, 97, 98 }, EdabitExercises.SortNumsAscending(haystack_7));
-            Assert.AreEqual(new int[] { -69, -54, -32, -23, -2 }, EdabitExercises.SortNumsAscending(haystack_8));
-            Assert.AreEqual(new int[] { -96, -21, -9 }, EdabitExercises.SortNumsAscending(haystack_9));
-            Assert.AreEqual(new int[] { 0 }, EdabitExercises.SortNumsAscending(haystack_10));
+            Assert.That(EdabitExercises.SortNumsAscending(haystack_1), Is.EqualTo(new int[] { 1, 2, 5, 10, 50 }));
+            Assert.That(EdabitExercises.SortNumsAscending(haystack_2), Is.EqualTo(new int[] { -95, -24, 4, 29, 80, 85 }));
+            Assert.That(EdabitExercises.SortNumsAscending(haystack_4), Is.EqualTo(new int[] { }));
+            Assert.That(EdabitExercises.SortNumsAscending(haystack_5), Is.EqualTo(new int[] { -85, -27, -17, -16, -16, -8, 47, 47, 51, 91 }));
+            Assert.That(EdabitExercises.SortNumsAscending(haystack_6), Is.EqualTo(new int[] { -76, -73, -51, -14, 65, 69, 74 }));
+            Assert.That(EdabitExercises.SortNumsAscending(haystack_7), Is.EqualTo(new int[] { 21, 33, 35, 45, 65, 97, 98 }));
+            Assert.That(EdabitExercises.SortNumsAscending(haystack_8), Is.EqualTo(new int[] { -69, -54, -32, -23, -2 }));
+            Assert.That(EdabitExercises.SortNumsAscending(haystack_9), Is.EqualTo(new int[] { -96, -21, -9 }));
+            Assert.That(EdabitExercises.SortNumsAscending(haystack_10), Is.EqualTo(new int[] { 0 }));
         }
 
         [Test]
