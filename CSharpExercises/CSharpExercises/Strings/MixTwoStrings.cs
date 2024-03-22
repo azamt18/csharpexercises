@@ -13,7 +13,7 @@ namespace CSharpExercises.Strings
 
         static string MixTwoStringsMethod(string str1, string str2)
         {
-            string result = String.Empty;
+            string result = string.Empty;
 
             for (int i = 0; i < (str1.Length > str2.Length ? str1.Length : str2.Length); i++)
             {
