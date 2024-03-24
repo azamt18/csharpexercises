@@ -1,4 +1,5 @@
-﻿using CSharpExercises.Strings;
+﻿using CSharpExercises.Arrays;
+using CSharpExercises.Strings;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +27,16 @@ namespace CSharpExercises.Tests.LeetCode
         public void _485MaxConsecutiveOnes(int[] input, int expected)
         {
             Assert.That(Consecutive.FindMaxConsecutiveOnes(input), Is.EqualTo(expected));
+        }
+
+        [Test]
+        [TestCase("anagram", "anagram", true)]
+        [TestCase("anagram", "nagaram", true)]
+        [TestCase("rat", "car", false)]
+        [TestCase("aa", "a", false)]
+        public void _242ValidAnagram(string s, string t, bool expected)
+        {
+            Assert.That(ArraysAndHashing.IsAnagram(s, t), Is.EqualTo(expected));
         }
 
     }
